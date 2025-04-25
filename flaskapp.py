@@ -50,8 +50,7 @@ def editar(id):
 @app.route("/eliminar/<int:id>") # se usa  la url base/eliminar/id
 def eliminar(id):
     cliente = Cliente(id=id)
-    ClienteDAO.eliminar(cliente)
-   
+    ClienteDAO.eliminar(cliente)   
     # Redireccionar a la página de inicio
     return redirect(url_for('index'))
 
