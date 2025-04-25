@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}App Gym{% endblock %}</title>    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+</head>
+<body>
+    <header>
+        <h1 class="text-center display-5 text-warning">Zona Fit Gym <i class="bi bi-award"></i></h1>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container text-center">
+                    <div class="ms-auto">
+                        <a class="navbar-brand" href="{{ url_for('index') }}">Inicio</a>                  
+                        <a class="navbar-brand text-info" href="{{ url_for('login') }}">Login</a>                
+                        <a class="navbar-brand" href="{{ url_for('tabla') }}">Tabla</a> 
+                    </div>               
+                </div>            
+    </header>
+    <main>
+        <div class="container">
+            {% block content %}
+            <!--Contenido dinamico se incluye aqui-->
+            {% endblock %}
+        </div>
+    </main>      
+    <footer class="text-center mt-4">
+        <p>&copy; 2025 App Gym</p>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

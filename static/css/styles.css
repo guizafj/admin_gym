@@ -1,0 +1,31 @@
+/* Definicion de estilos en un archivo externo*/
+
+.body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+h2 {
+    color: #666;
+    text-align: center;
+}
+a{
+    color: hotpink;
+    
+}
+a:hover {
+    color: yellow
+}
+
+/*Clases o selectores en css*/
+.texto-centrado {
+    text-align: center;
+}
+.titulo {
+    
+    font-size: 200%;
+}
