@@ -8,9 +8,9 @@
 ## 🚀 Características Principales
 
 - 👥 **Gestión de Clientes**: Registro, edición y eliminación de información de clientes.
-- 📅 **Control de Membresías**: Seguimiento de membresías activas, fechas de vencimiento y renovaciones.
-- 💳 **Pagos y Facturación**: Registro de pagos realizados y generación de facturas.
-- 📈 **Reportes**: Generación de reportes sobre asistencia, pagos y estado de membresías.
+- 📅 **Control de Membresías**: Seguimiento de membresías activas, fechas de vencimiento y renovaciones. (NI)
+- 💳 **Pagos y Facturación**: Registro de pagos realizados y generación de facturas. (implementacion futura)
+- 📈 **Reportes**: Generación de reportes sobre asistencia, pagos y estado de membresías. (por implementar)
 - 🔐 **Autenticación de Usuarios**: Sistema de login seguro para administradores y empleados.
 - 🎨 **Interfaz Intuitiva**: Diseño responsivo y amigable para facilitar la navegación.
 
